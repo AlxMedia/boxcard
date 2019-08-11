@@ -2,14 +2,14 @@
 Contributors: alxmedia
 Requires at least: 5.0
 Tested up to: 5.0
-Version: 1.0.0
+Version: 1.0.1
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0
 Tags: blog, one-column, two-columns, right-sidebar, left-sidebar, custom-colors, custom-menu, featured-images, flexible-header, full-width-template, post-formats, sticky-post, theme-options, threaded-comments, translation-ready, custom-logo, custom-header, custom-background
 
 == Description ==
 
-Boxcard is a flexible personal blog theme with plenty of options. It is optimized for all devices and built to work with blocks. Blog posts are shown as visually beautiful cards that inspires you to read. You can pick accent color, set sidebar to the left or right and choose website max-width with a few clicks.
+Boxcard is a flexible personal blog theme with plenty of options. It is optimized for all devices and built to work with blocks. Blog posts are shown as visually beautiful cards that inspires you to read. You can pick accent color, set sidebar to the left or right and choose website max-width with a few clicks. Demo: http://demo.alx.media/x/?theme=Boxcard
 
 == Installation ==
 
@@ -68,6 +68,9 @@ Content images
 2. https://stocksnap.io/photo/YO8TBBW2RV - CC0 1.0 Universal (CC0 1.0)
 
 == Changelog ==
+
+= 1.0.1 - 2019-08-11 =
+* Updated theme description
 
 = 1.0.0 - 2019-08-09 =
 * Initial release

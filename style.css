@@ -1,7 +1,7 @@
 /*
 Theme Name: Boxcard
 Theme URI: http://alx.media/themes/boxcard/
-Version: 1.0.1
+Version: 1.0.2
 Description: <a href="http://alx.media/themes/boxcard/">Boxcard</a> is a flexible personal blog theme with plenty of options. It is optimized for all devices and built to work with blocks. Blog posts are shown as visually beautiful cards that inspires you to read. You can pick accent color, set sidebar to the left or right and choose website max-width with a few clicks. Demo: http://demo.alx.media/x/?theme=Boxcard
 Author: Alexander Agnarson
 Author URI: http://alx.media
@@ -1487,6 +1487,8 @@ li #reply-title { font-size: 0; margin: 0!important; padding: 0; height: 0; bord
 .logged-in #reply-title { margin-bottom: 20px; }
 .logged-in #commentform p.comment-form-comment { margin-top: 10px; }
 .logged-in #commentform p.comment-form-comment label { display: none; }
+#commentform .comment-form-cookies-consent { padding: 10px 0; }
+#commentform .comment-form-cookies-consent label { display: inline; }
 
 
 /* ------------------------------------------------------------------------- *

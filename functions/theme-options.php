@@ -81,15 +81,6 @@ Kirki::add_section( 'styling', array(
 /*  Add Fields
 /* ------------------------------------ */
 
-// General: Responsive Layout
-Kirki::add_field( 'boxcard_theme', array(
-	'type'			=> 'switch',
-	'settings'		=> 'responsive',
-	'label'			=> esc_html__( 'Responsive Layout', 'boxcard' ),
-	'description'	=> esc_html__( 'Mobile and tablet optimizations (responsive.css)', 'boxcard' ),
-	'section'		=> 'general',
-	'default'		=> 'on',
-) );
 // General: Mobile Sidebar
 Kirki::add_field( 'boxcard_theme', array(
 	'type'			=> 'switch',

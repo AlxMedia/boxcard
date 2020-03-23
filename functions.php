@@ -200,7 +200,7 @@ if ( ! function_exists( 'boxcard_styles' ) ) {
 	
 	function boxcard_styles() {
 		wp_enqueue_style( 'boxcard-style', get_stylesheet_uri() );
-		if ( get_theme_mod('responsive','on') =='on' ) { wp_enqueue_style( 'boxcard-responsive', get_template_directory_uri().'/responsive.css' ); }
+		wp_enqueue_style( 'boxcard-responsive', get_template_directory_uri().'/responsive.css' );
 		wp_enqueue_style( 'boxcard-font-awesome', get_template_directory_uri().'/fonts/all.min.css' );
 	}
 	

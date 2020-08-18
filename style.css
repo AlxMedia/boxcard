@@ -70,7 +70,7 @@ table { border-collapse: collapse; border-spacing: 0; }
 body { background: #ddd; font-size: 15px; line-height: 1.5em; color: #555; font-weight: 300; }
 ::selection { background: #333; color: #fff; }
 ::-moz-selection { background: #333; color: #fff; }
-a { color: #333; text-decoration: none; outline: 0; }
+a { color: #333; text-decoration: none; }
 a:hover { color: #333; }
 img { max-width: 100%; height: auto; }
 a,

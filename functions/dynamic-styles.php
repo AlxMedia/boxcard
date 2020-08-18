@@ -106,10 +106,8 @@ if ( ! function_exists( 'boxcard_dynamic_css' ) ) {
 				$styles .= '
 .entry a { color: '.esc_attr( get_theme_mod('color-1') ).'; }
 .entry .more-link { background-color: '.esc_attr( get_theme_mod('color-1') ).'; }
-#nav-header.nav-container { border-bottom-color: '.esc_attr( get_theme_mod('color-1') ).'; }
-@media only screen and (max-width: 719px) {
-	#nav-mobile.nav-container { border-bottom: 10px solid '.esc_attr( get_theme_mod('color-1') ).';  }
-}
+.nav-menu:not(.mobile) { border-bottom-color: '.esc_attr( get_theme_mod('color-1') ).'; }
+.nav-menu.mobile { border-top-color: '.esc_attr( get_theme_mod('color-1') ).'; }
 				'."\n";
 			}
 			// card height

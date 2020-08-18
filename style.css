@@ -409,7 +409,7 @@ h1, h2, h3, h4, h5, h6 { color: #333; font-weight: 300; -ms-word-wrap: break-wor
 .entry .wp-block-separator {  }
 
 /* block : more */
-.entry .more-link { background: #b19c5e; box-shadow: none; font-size: 18px; color: #fff; position: absolute; bottom: 0; right: 0; padding: 10px 20px; }
+.entry .more-link { background: #b19c5e; box-shadow: none; font-size: 16px; color: #fff; position: absolute; bottom: 0; right: 0; padding: 6px 16px; }
 .entry .more-link:hover { color: #fff; padding-right: 30px; }
 
 /* block : button */
@@ -981,15 +981,15 @@ box-shadow: 0 0 2px rgba(255,255,255,0.4);
 .blog-card-inner .entry-content { color: rgba(255,255,255,0.7); }
 
 .entry-meta {  }
-.entry-meta li { float: left; padding: 30px; font-size: 18px; line-height: 22px; }
+.entry-meta li { float: left; padding: 20px; font-size: 16px; line-height: 22px; }
 .entry-meta li i { margin-right: 6px; }
-.entry-meta li.entry-author { background: #fff; padding: 16px 20px; }
-.entry-meta li.entry-author img { display: block; border-radius: 100%; height: 50px; width: 50px; }
+.entry-meta li.entry-author { background: #fff; padding: 11px 10px; }
+.entry-meta li.entry-author img { display: block; border-radius: 100%; height: 40px; width: 40px; }
 .entry-meta li.entry-author a:hover img { opacity: 0.8; }
 .entry-meta li.entry-date { background: #f5f5f5; border-left: 1px solid #eee; }
 .entry-meta li.entry-comments { background: #222; color: rgba(255,255,255,0.7); }
 .entry-meta li.entry-comments a { color: rgba(255,255,255,0.7); }
-.entry-meta li.entry-category { background: #111; padding-top: 22px; padding-bottom: 22px; }
+.entry-meta li.entry-category { background: #111; padding-top: 12px; padding-bottom: 12px; }
 .entry-meta li.entry-category a { background: #222; color: rgba(255,255,255,0.7); padding: 8px 12px; display: inline-block; }
 .entry-meta li.entry-category a:hover { background: #333; }
 

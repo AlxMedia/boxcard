@@ -6,6 +6,14 @@
 	
 		<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 			<div class="blog-card group">
+
+				<div class="blog-card-inner">
+					
+					<div class="entry-media">
+						<?php if( get_post_format() ) { get_template_part('inc/post-formats'); } ?>
+					</div>
+
+				</div>
 				
 				<div class="blog-card-bottom">
 					<ul class="entry-meta group">
@@ -18,14 +26,6 @@
 						<?php endif; ?>
 						<li class="entry-category"><?php the_category(' '); ?></li>
 					</ul>
-				</div>
-				
-				<div class="blog-card-inner">
-					
-					<div class="entry-media">
-						<?php if( get_post_format() ) { get_template_part('inc/post-formats'); } ?>
-					</div>
-
 				</div>
 
 				<header class="entry-header group">

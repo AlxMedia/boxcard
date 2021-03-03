@@ -1,7 +1,7 @@
 === Boxcard ===
 Contributors: alxmedia
 Requires at least: 5.0
-Tested up to: 5.5
+Tested up to: 5.6
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0
 Tags: blog, one-column, two-columns, right-sidebar, left-sidebar, custom-colors, custom-menu, featured-images, flexible-header, full-width-template, post-formats, sticky-post, theme-options, threaded-comments, translation-ready, custom-logo, custom-header, custom-background
@@ -23,7 +23,7 @@ http://alx.media/documentation/
 
 == Copyright ==
 
-Boxcard WordPress Theme, Copyright 2018 AlxMedia
+Boxcard WordPress Theme, Copyright 2021 AlxMedia
 Boxcard is distributed under the terms of the GNU GPL
 
 This program is free software: you can redistribute it and/or modify
@@ -38,25 +38,30 @@ GNU General Public License for more details.
 
 Boxcard bundles the following third-party resources:
 
-Font Awesome, Copyright Dave Gandy
+Font Awesome
+Copyright (c) Dave Gandy
 License: SIL OFL 1.1 (Fonts); MIT (CSS)
-Source: http://fontawesome.com/
+Source: https://fontawesome.com/
 
-Titillium font, Copyright Accademia di Belle Arti di Urbino
-License: SIL Open Font License, version 1.1.
+Titillium Font
+Copyright (c) Accademia di Belle Arti di Urbino
+License: SIL OFL 1.1
 Source: http://www.campivisivi.net/titillium/
 
-Slick Carousel, Copyright Ken Wheeler
+Slick Carousel
+Copyright (c) Ken Wheeler
 License: MIT
 Source: http://kenwheeler.github.io/slick/
 
-FitVids, Copyright Chris Coyier
+FitVids
+Copyright (c) Chris Coyier
 License: WTFPL
 Source: http://fitvidsjs.com/
 
-Kirki, Copyright Aristeides Stathopoulos
+Kirki
+Copyright (c) David Vongries
 License: MIT
-Source: https://github.com/aristath/kirki
+Source: https://kirki.org/
 
 Screenshot images
 License: CC0 1.0 Universal (CC0 1.0)
@@ -67,6 +72,17 @@ Content images
 2. https://stocksnap.io/photo/YO8TBBW2RV - CC0 1.0 Universal (CC0 1.0)
 
 == Changelog ==
+
+= 1.0.8 - 2021-03-03 =
+* Fixed: mobile menu tabbing will enter in the menu even when it's closed
+* Fixed: prefix for custom menu names and classes
+* Fixed: readme format to declare license information
+* Fixed: make sure that the pingback_url is conditional since pings can be turned off
+* Fixed: added no minified font awesome css
+* Increased menu dropdown width
+* Added option to disable custom navigation in child themes
+* Updated language files
+* Updated to Font Awesome Free 5.15.2
 
 = 1.0.7 - 2020-08-24 =
 * Fixed markup of header and footer menus

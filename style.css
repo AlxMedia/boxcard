@@ -1,7 +1,7 @@
 /*
 Theme Name: Boxcard
 Theme URI: http://alx.media/themes/boxcard/
-Version: 1.0.7
+Version: 1.0.8
 Requires at least: 5.0
 Requires PHP: 5.6
 Tested up to: 5.5
@@ -532,11 +532,11 @@ body.boxed { background: #ddd; }
 
 /*  base : sidebar
 /* ------------------------------------ */
-.sidebar { position: relative; z-index: 2; }
+.sidebar { position: relative; }
 .sidebar .pad { padding-left: 20px; padding-right: 20px; }
 
 /* sidebar primary */
-.s1 { background: #fff; z-index: 2; }
+.s1 { background: #fff; }
 #header .s1 { margin: 0 -50px; }
 
 /*  base : grid
@@ -734,13 +734,13 @@ box-shadow: 0 0 2px rgba(255,255,255,0.4);
 
 .nav-menu:not(.mobile) .menu { flex-wrap: wrap; justify-content: flex-start; }
 .nav-menu:not(.mobile) .menu ul.active,
-.nav-menu:not(.mobile) .menu li.hover > ul { overflow: visible; width: 180px; opacity: 1; transform: translateY(0); transition: opacity 0.15s linear, transform 0.15s linear; }
-.nav-menu:not(.mobile) .menu ul .sub-menu { left: 200px; top: 0; }
+.nav-menu:not(.mobile) .menu li.hover > ul { overflow: visible; width: 200px; opacity: 1; transform: translateY(0); transition: opacity 0.15s linear, transform 0.15s linear; }
+.nav-menu:not(.mobile) .menu ul .sub-menu { left: 220px; top: 0; }
 .nav-menu:not(.mobile) .menu { position: relative; }
 .nav-menu:not(.mobile) .menu ul { font-size: 14px; opacity: 0; padding: 10px 0; position: absolute; top: calc(100% + 20px); transition: opacity 0.15s linear, transform 0.15s linear, right 0s 0.15s; transform: translateY(6px); z-index: 1; }
 .nav-menu:not(.mobile) .menu ul li { position: relative; }
 .nav-menu:not(.mobile) .menu ul a { display: block; padding: 7px 20px; transition: background-color 0.15s linear; width: 100%; }
-.nav-menu:not(.mobile) .menu li.menu-item-has-children.focus > ul {	min-width: 180px; max-width: 180px; max-height: 300vh; overflow: visible; opacity: 1; transform: translateY(0); transition: opacity 0.15s linear, transform 0.15s linear; }
+.nav-menu:not(.mobile) .menu li.menu-item-has-children.focus > ul {	min-width: 200px; max-width: 200px; max-height: 300vh; overflow: visible; opacity: 1; transform: translateY(0); transition: opacity 0.15s linear, transform 0.15s linear; }
 .nav-menu:not(.mobile) .menu li.menu-item-has-children.focus > ul:focus-within { opacity: 1!important; }
 .nav-menu:not(.mobile) .menu li ul.sub-menu:not(.active) { opacity: 0; }
 .nav-menu:not(.mobile) .menu li.hover ul.sub-menu:not(.active) { opacity: 1; }
@@ -775,6 +775,12 @@ box-shadow: 0 0 2px rgba(255,255,255,0.4);
 .nav-menu.mobile ul ul li a { padding: 12px 0 12px 40px; }
 .nav-menu.mobile ul ul ul li a { padding: 12px 0 12px 60px; }
 .nav-menu.mobile ul button { margin: 10px 0; padding: 0 20px; }
+
+/* menu mobile fix */
+.nav-menu.mobile > div > ul.menu,
+.nav-menu.mobile.toggled > div > ul.menu ul.sub-menu { visibility: hidden; transition: all 0.3s ease; }
+.nav-menu.mobile.toggled > div > ul.menu,
+.nav-menu.mobile.toggled > div > ul.menu ul.sub-menu.active { visibility: visible; }
 
 /* menu styling */
 .nav-menu a { color: #fff; }
@@ -828,11 +834,10 @@ box-shadow: 0 0 2px rgba(255,255,255,0.4);
 	.col-2cr #header .nav-menu:not(.mobile) .menu ul ul:after { border-right-color: #eee; }
 	.col-2cr #header .nav-menu-dropdown-left .nav-menu:not(.mobile) .menu ul ul:after { border-left-color: #333; }
 	#header .nav-menu:not(.mobile) button { background: rgba(255,255,255,0.06); }
-	#header .nav-menu:not(.mobile) button { margin: 6px 0 10px 6px; }
 	.col-2cr #header .nav-menu:not(.mobile) .menu ul.active,
-	.col-2cr #header .nav-menu:not(.mobile) .menu li.hover > ul { width: 180px; }
-	.col-2cr #header .nav-menu:not(.mobile) .menu ul .sub-menu { left: 200px; }
-	.col-2cr #header .nav-menu:not(.mobile) .menu li.menu-item-has-children.focus > ul {	min-width: 180px; max-width: 180px; }
+	.col-2cr #header .nav-menu:not(.mobile) .menu li.hover > ul { width: 200px; }
+	.col-2cr #header .nav-menu:not(.mobile) .menu ul .sub-menu { left: 220px; }
+	.col-2cr #header .nav-menu:not(.mobile) .menu li.menu-item-has-children.focus > ul { min-width: 200px; max-width: 200px; }
 	#header .nav-menu:not(.mobile) .menu > li { width: 100%; margin: 0; }
 	#header .nav-menu:not(.mobile) .menu > li:hover > span { background: #222; }
 	.col-2cr #header .nav-menu:not(.mobile) .menu > li > span button .svg-icon { transform: rotate(-90deg); margin-bottom: 2px; }

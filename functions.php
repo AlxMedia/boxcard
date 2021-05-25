@@ -93,8 +93,10 @@ add_action( 'after_setup_theme', 'boxcard_setup' );
 
 /*  Custom navigation
 /* ------------------------------------ */
-add_action( 'wp', function() {
+if ( ! class_exists( '\Boxcard\Nav' ) ) {
 	require_once 'functions/nav.php';
+}
+add_action( 'wp', function() {
 	$nav = new \Boxcard\Nav();
 	$nav->enqueue(
 		[

@@ -515,7 +515,7 @@ Kirki::add_field( 'boxcard_theme', array(
 	'label'			=> esc_html__( 'Create Social Links', 'boxcard' ),
 	'description'	=> esc_html__( 'Create and organize your social links', 'boxcard' ),
 	'section'		=> 'social',
-	'tooltip'		=> esc_html__( 'Font Awesome names:', 'boxcard' ) . ' <a href="https://fontawesome.com/icons?d=gallery&s=brands&m=free" target="_blank"><strong>' . esc_html__( 'View All', 'boxcard' ) . ' </strong></a>',
+	'tooltip'		=> esc_html__( 'Font Awesome names:', 'boxcard' ) . ' <a href="https://fontawesome.com/v5/search?s=brands" target="_blank"><strong>' . esc_html__( 'View All', 'boxcard' ) . ' </strong></a>',
 	'row_label'		=> array(
 		'type'	=> 'text',
 		'value'	=> esc_html__('social link', 'boxcard' ),
@@ -532,7 +532,7 @@ Kirki::add_field( 'boxcard_theme', array(
 		'social-icon'	=> array(
 			'type'			=> 'text',
 			'label'			=> esc_html__( 'Icon Name', 'boxcard' ),
-			'description'	=> esc_html__( 'Font Awesome icons. Ex: fa-facebook ', 'boxcard' ) . ' <a href="https://fontawesome.com/icons?d=gallery&s=brands&m=free" target="_blank"><strong>' . esc_html__( 'View All', 'boxcard' ) . ' </strong></a>',
+			'description'	=> esc_html__( 'Font Awesome icons. Ex: fa-facebook ', 'boxcard' ) . ' <a href="https://fontawesome.com/v5/search?s=brands" target="_blank"><strong>' . esc_html__( 'View All', 'boxcard' ) . ' </strong></a>',
 			'default'		=> 'fa-',
 		),
 		'social-link'	=> array(

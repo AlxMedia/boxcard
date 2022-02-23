@@ -11,9 +11,6 @@
  *  Load theme files
 /* ------------------------------------------------------------------------- */	
 
-// Load Kirki
-include( get_template_directory() . '/functions/kirki/kirki.php' );
-
 if ( ! function_exists( 'boxcard_load' ) ) {
 	
 	function boxcard_load() {

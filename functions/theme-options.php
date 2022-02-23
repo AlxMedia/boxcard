@@ -1,4 +1,12 @@
 <?php
+if (!is_admin()) {
+	// We don't need Kirki on the frontend
+	return;
+}
+
+// Load Kirki
+include( get_template_directory() . '/functions/kirki/kirki.php' );
+
 if ( ! class_exists( 'Kirki' ) ) {
 	return;
 }

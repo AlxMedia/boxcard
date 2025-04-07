@@ -8,7 +8,7 @@ Tags: blog, photography, entertainment, one-column, two-columns, right-sidebar, 
 
 == Description ==
 
-Boxcard is a flexible personal blog theme with plenty of options. It is optimized for all devices and built to work with blocks. Blog posts are shown as visually beautiful cards that inspires you to read. You can pick accent color, set sidebar to the left or right and choose website max-width with a few clicks. Demo: http://demo.alx.media/x/?theme=Boxcard
+Boxcard is a flexible personal blog theme with plenty of options. It is optimized for all devices and built to work with blocks. Blog posts are shown as visually beautiful cards that inspires you to read. You can pick accent color, set sidebar to the left or right and choose website max-width with a few clicks. Demo: https://demo.agnarson.com/?theme=Boxcard
 
 == Installation ==
 
@@ -19,7 +19,7 @@ Boxcard is a flexible personal blog theme with plenty of options. It is optimize
 
 == Documentation ==
 
-http://alx.media/documentation/
+https://agnarson.com/documentation/
 
 == Copyright ==
 
